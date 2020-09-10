@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="icon" href="images/pizza.png">
+  <title>repEAT| The food choice</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- link to fontawesome -->
+  <script src="https://kit.fontawesome.com/fa19526243.js" crossorigin="anonymous"></script>
+
+
+  <!-- Adding Font Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar top -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Saved items</a>
+      <hr style="border-color:grey ">
+      <a href="#">About us</a>
+      <a href="#">Contact us</a>
+      <a href="#">FAQs</a>
+      <hr style="border-color:grey ">
+      <a href="#">Share</a>
+
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <div onclick="openNav()"> <a href="#"><i class="fas fa-bars fa-2x iconfa"></i></a> </div>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <a class="navbar-brand" href="#">
+      <h1 class="Font"><i class="fas fa-pizza-slice fa-1x pizza"></i><span class="green">rep</span><span class="dgreen">EAT</span> </h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><span class="Font" style="color:#91d18b;">Recents</span></a><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="Font">Filter By</span>
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Indian</a>
+            <a class="dropdown-item" href="#">Chinese</a>
+            <a class="dropdown-item" href="#">Italian</a>
+            <a class="dropdown-item" href="#">Thai</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Starters</a>
+            <a class="dropdown-item" href="#">Main Course</a>
+            <a class="dropdown-item" href="#">Desserts</a>
+            <a class="dropdown-item" href="#">Beverages</a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#">Spicy</a>
+            <a class="dropdown-item" href="#">Sweet</a>
+            <a class="dropdown-item" href="#">Sour</a>
+            <a class="dropdown-item" href="#">Fruity</a>
+            <a class="dropdown-item" href="#">Mixed</a>
+            <div class="dropdown-divider"></div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <span class="Font">Upcoming Recipes</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="Font">My Book</span></a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+  <!-- navbar top END -->
+  <hr>
+  <!-- First Division -->
+  <div class="First">
+    <h2>Trending</h2>
+    <hr class="separate">
+
+    <div class="shadow-sm p-3 mb-5 bg-white rounded ">
+      <img class="imaged1 "src="images/Food1.jfif" alt="Avatar" >
+
+      <div class="Description " style="text-align:center; display: inline-block;">
+        <a href="#"> <h4 class="Font">Recipes </h4></a>
+        <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+      </div>
+      <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+        <i class="fas fa-heart fa-1x iconfa"></i>
+        <i class="fas fa-share fa-1x iconfa"></i>
+        <i class="fas fa-comments fa-1x iconfa"></i>
+
+      </div>
+
+
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+    <img class="imaged1 " src="images/Food2.jfif" alt="Avatar" >
+    <div class="Description " style="text-align:center; display: inline-block;">
+      <a href="#"> <h4 class="Font">Styles </h4></a>
+      <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+    </div>
+    <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+      <i class="fas fa-heart fa-1x iconfa"></i>
+      <i class="fas fa-share fa-1x iconfa"></i>
+      <i class="fas fa-comments fa-1x iconfa"></i>
+
+
+    </div>
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+    <img class="imaged1 "src="images/Food5.jfif" alt="Avatar" >
+    <div class="Description " style="text-align:center; display: inline-block;">
+      <a href="#"> <h4 class="Font">Healthy Eating </h4></a>
+      <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+    </div>
+    <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+      <i class="fas fa-heart fa-1x iconfa"></i>
+      <i class="fas fa-share fa-1x iconfa"></i>
+      <i class="fas fa-comments fa-1x iconfa"></i>
+
+    </div>
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+      <img class="imaged1 " src="images/Food6.jfif" alt="Avatar" >
+      <div class="Description " style="text-align:center; display: inline-block;">
+        <a href="#"> <h4 class="Font">Creativity </h4></a>
+        <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+      </div>
+      <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+        <i class="fas fa-heart fa-1x iconfa"></i>
+        <i class="fas fa-share fa-1x iconfa"></i>
+        <i class="fas fa-comments fa-1x iconfa"></i>
+
+      </div>
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+      <img class="imaged1 " src="images/Food7.jfif" alt="Avatar">
+      <div class="Description " style="text-align:center; display: inline-block;">
+        <a href="#"> <h4 class="Font">Festive </h4></a>
+        <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+      </div>
+      <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+        <i class="fas fa-heart fa-1x iconfa"></i>
+        <i class="fas fa-share fa-1x iconfa"></i>
+        <i class="fas fa-comments fa-1x iconfa"></i>
+
+      </div>
+    </div>
+    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+      <img class="imaged1 " src="images/Food8.jfif" alt="Avatar" >
+      <div class="Description " style="text-align:center; display: inline-block;">
+        <a href="#"> <h4 class="Font"> Celebrations</h4></a>
+        <p style="text-align:center; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis convallis nisl a aliquet porttitor.<br> Nam bibendum magna ut felis luctus, ac vestibulum eros elementum. </p>
+
+      </div>
+      <div class="Description shadow-sm p-3 mb-5 bg-white rounded rightalign" style="align-item: center;">
+        <i class="fas fa-heart fa-1x iconfa"></i>
+        <i class="fas fa-share fa-1x iconfa"></i>
+        <i class="fas fa-comments fa-1x iconfa"></i>
+
+      </div>
+    </div>
+
+  </div>
+
+
+<!-- Second division -->
+
+  <div class="Second">
+      <h2>New on plate</h2>
+        <hr class="separate">
+        <div class="container center">
+
+        <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="plate" src="images/plate5.jfif" alt="">
+      <br>
+    <h4 class="Font">Turn the plate and Request a Recipe</h4>
+    </div>
+    <div class="flip-card-back">
+      <img class="plate"src="images/plate4.jfif" alt="">
+      <a style="margin-top:10px;"  href="#" class="myButton">Request</a>
+      <p class="Font" style="margin-top:10px;">Request any recipe that you like.</p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+  </div>
+
+  <!-- Third Division -->
+
+  <div class="Third">
+    <h2>Comment</h2>
+      <hr class="separate">
+      <div class="comment">
+        <input type="text" name="Comment" placeholder="Add a Comment">
+
+      </div>
+      <a href="#" class="myButton buttonsize">Comment</a>
+  </div>
+
+
+  <!-- Last Division -->
+  <div class="fourth">
+  <hr class=hline>
+  <h2 class= "lasthead">Follow us on</h2>
+  <div class="lasticon">
+  <a href="#"><i class="fab fa-instagram fa-2x iconfa"></i>
+  <p class="lasthead">Instagram</p></a>
+  </div>
+  <div class="lasticon">
+  <a href="#"> <i class="fab fa-facebook-square fa-2x iconfa"></i>
+  <p class="lasthead">Facebook</p> </a>
+
+  </div>
+  <div class="lasticon">
+  <a href="#"><i class=" fab fa-twitter fa-2x iconfa"></i>
+  <p class="lasthead">Twitter</p></a>
+  </div>
+
+  <hr class="hline">
+
+
+  <p style=" color:white">
+    @Copyright 2020 repEAT
+  </p>
+
+
+  </div>
+
+
+<i class="fas fa-pizza"></i>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
